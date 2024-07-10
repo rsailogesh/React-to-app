@@ -1,0 +1,62 @@
+.head-app{
+  color: green;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+input{
+  width: 350px;
+  height: 27px;
+  border-radius: 5px;
+  border: 1px solid green;
+}
+
+button{
+  width: 150px;
+  height: 29px;
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+
+}
+
+button:active{
+  background-color: darkgreen;
+}
+
+.add-task{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: start;
+  height: 200px;
+}
+
+.delete-task{
+  background-color: red;
+  margin-left: 20px;
+}
+
+.task-process{
+  display: block;
+  height: 30px;
+  width: 190px;
+  margin-bottom: 20px;
+  background-color:green ;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.task-card{
+  padding-left: 30px;
+  height: 230px;
+  width: 370px;
+  background-color: rgb(131, 205, 131);
+  margin-left: 30px;
+  margin-bottom: 30px;
+  display: inline-block;
+  border-radius: 10px;
+}
